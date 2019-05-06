@@ -1,0 +1,6 @@
+User launches the skill for the first time, responds with location and children information:
+  - beforeEach: 'firstTimeNoToken'
+  - afterEach: 'clear'
+  - LaunchIntent:
+      alexaResponse: Launch.NoAccessToken
+      shouldEndSession: true

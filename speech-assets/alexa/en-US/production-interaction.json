@@ -1,0 +1,152 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "office tracker",
+      "intents": [
+        {
+          "name": "LaunchIntent",
+          "samples": [
+            "i'm ready",
+            "i am ready",
+            "i'm checking in",
+            "i'm ready to check in",
+            "check in",
+            "a check in",
+            "i'm ready to report",
+            "i'm back",
+            "hi",
+            "hello",
+            "hey",
+            "a task",
+            "i want to log a task",
+            "another task",
+            "let's do another task",
+            "let's do a task",
+            "let's log a task",
+            "log a task",
+            "log a new task",
+            "a new task",
+            "new task",
+            "i want to log a new task"
+          ],
+          "slots": []
+        },
+        {
+          "name": "SearchIntent",
+          "samples": [
+            "for {search}",
+            "it's {search}",
+            "it's for {search}",
+            "the project is {search}",
+            "the task is {search}",
+            "the description is {search}",
+            "look for {search}",
+            "description is {search}",
+            "listen carefully {search}",
+            "ok {search}",
+            "it is {search}",
+            "i was {search}",
+            "i am {search}",
+            "put {search}",
+            "write {search}"
+          ],
+          "slots": [
+            {
+              "type": "AMAZON.SearchQuery",
+              "name": "search"
+            }
+          ]
+        },
+        {
+          "name": "LogTimeIntent",
+          "samples": [
+            "{timeOne}",
+            "i lasted {timeOne}",
+            "I'm logging {timeOne}",
+            "{timeOne} {timeTwo}",
+            "{timeOne} and {timeTwo}",
+            "i lasted {timeOne} and {timeTwo}",
+            "I'm logging {timeOne} and {timeTwo}"
+          ],
+          "slots": [
+            {
+              "type": "AMAZON.DURATION",
+              "name": "timeOne"
+            },
+            {
+              "type": "AMAZON.DURATION",
+              "name": "timeTwo"
+            }
+          ]
+        },
+        {
+          "name": "LogLunchIntent",
+          "samples": [
+            "lunch",
+            "log lunch",
+            "lunch time",
+            "it's lunch time"
+          ],
+          "slots": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [],
+          "slots": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [],
+          "slots": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": [],
+          "slots": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": [],
+          "slots": []
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": [],
+          "slots": []
+        },
+        {
+          "name": "AMAZON.StartOverIntent",
+          "samples": [],
+          "slots": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "bye",
+            "bye bye",
+            "goodbye",
+            "see you later",
+            "stop for now",
+            "all set",
+            "i'm all set",
+            "i'm good"
+          ],
+          "slots": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": [
+            "Yes i do"
+          ],
+          "slots": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": [],
+          "slots": []
+        }
+      ],
+      "types": []
+    }
+  }
+}

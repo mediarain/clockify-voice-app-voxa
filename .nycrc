@@ -1,0 +1,10 @@
+{
+  "report-dir": "reports",
+  "check-coverage": false,
+  "per-file": true,
+  "include": ["src/**/*.ts", "src/**/*.js"],
+  "reporter": ["lcov", "text-summary", "html", "cobertura", "json"],
+  "extension": [".ts", ".js"],
+  "cache": true,
+  "all": true
+}

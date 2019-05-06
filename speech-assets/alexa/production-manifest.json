@@ -1,0 +1,56 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "interfaces": [
+          {
+            "type": "CAN_FULFILL_INTENT_REQUEST"
+          }
+        ],
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:956055560278:function:ClockifyTrackerVoiceApp"
+        }
+      }
+    },
+    "publishingInformation": {
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Log with your Clockify account and your access key to log tasks",
+      "category": "BUSINESS_AND_FINANCE",
+      "distributionMode": "PRIVATE",
+      "distributionCountries": "US",
+      "locales": {
+        "en-US": {
+          "name": "Clockify Tracker",
+          "summary": "Private app to log Clockify Hours",
+          "description": "Private app to log Clockify Hours",
+          "examplePhrases": [
+            "Alexa, open Office Tracker.",
+            "Alexa, start Office Tracker.",
+            "Alexa, launch Office Tracker."
+          ],
+          "keywords": [
+            "clockify",
+            "tracker",
+            "office"
+          ],
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/b5c5/a1dcac17f0c54f2d9185a0dbee74f135/APP_ICON?versionId=Tkc3QAzkeqLIc0dzKZTgkNeB8tx7p.vj&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1551371585&Signature=T2eQ7PjUhKbMFrsoC%2BGZmsQLv7A%3D",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/fc02/c87da89a604b4042a377dd26925754c1/APP_ICON_LARGE?versionId=lRtA5d6EZIUNIvtL0caXZYppMao3TraJ&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1551371585&Signature=uZLIW4QNqSK5jMYb2hZtMw2ahrQ%3D"
+        }
+      }
+    },
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false,
+      "locales": {
+        "en-US": {
+          "privacyPolicyUrl": "https://rain.agency/",
+          "termsOfUseUrl": ""
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}

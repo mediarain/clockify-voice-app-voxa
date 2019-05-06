@@ -1,0 +1,13 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:latest",
+    "tslint-config-prettier",
+    "tslint-no-unused-expression-chai"
+  ],
+  "rules": {
+    "no-submodule-imports": [true, "aws-serverless-express", "source-map-support"],
+    "no-implicit-dependencies": [true, "dev"],
+    "prefer-conditional-expression": false
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "Launch.NoAccessToken.say": [
+    "en"
+  ],
+  "Launch.AccountLinkingCard": [
+    "en"
+  ],
+  "Launch.Welcome.init": [
+    "en"
+  ],
+  "Launch.Welcome.say": [
+    "en"
+  ],
+  "NotUnderstood.say": [
+    "en"
+  ],
+  "Exit.say": [
+    "en"
+  ],
+  "Task.Lunch.AlreadyLogged.say": [
+    "en"
+  ],
+  "Task.Lunch.Logged.say": [
+    "en"
+  ],
+  "Task.Lunch.Logged.reprompt": [
+    "en"
+  ],
+  "Task.StartOver.say": [
+    "en"
+  ],
+  "Task.WhatProject.say": [
+    "en"
+  ],
+  "Task.WhatTask.say": [
+    "en"
+  ],
+  "Task.WhatDescription.say": [
+    "en"
+  ],
+  "Task.InvalidProject.say": [
+    "en"
+  ],
+  "Task.InvalidTask.say": [
+    "en"
+  ],
+  "Task.HowMuchTime.say": [
+    "en"
+  ],
+  "Task.Confirm.reprompt": [
+    "en"
+  ],
+  "Task.Confirm.say": [
+    "en"
+  ],
+  "Task.Confirm.card": [
+    "en"
+  ],
+  "Task.ConfirmProject.say": [
+    "en"
+  ],
+  "Task.ConfirmTask.say": [
+    "en"
+  ],
+  "Task.ConfirmDescription.say": [
+    "en"
+  ],
+  "Task.ConfirmHour.say": [
+    "en"
+  ],
+  "Task.ProgressCard": [
+    "en"
+  ],
+  "Task.Done.reprompt": [
+    "en"
+  ],
+  "Task.Done.say": [
+    "en"
+  ]
+}

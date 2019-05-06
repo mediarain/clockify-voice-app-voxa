@@ -1,0 +1,9 @@
+{
+  "spreadsheets": [
+    "link to VUI google sheet",
+    "link to publishing information google sheet"
+  ],
+  "platforms": ["alexa"],
+  "contentPath": "src/content",
+  "viewsPath": "src/app"
+}

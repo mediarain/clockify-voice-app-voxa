@@ -1,0 +1,120 @@
+{
+  "en": {
+    "translation": {
+      "Launch": {
+        "NoAccessToken": {
+          "say": [
+            "Welcome to Clockify Tracker! To use the Clockify skill, you need to enter your API key. I just sent a card to your Alexa app, click on it. You'll be redirected to a browser so that you can enter your API key. You can find it by going to the Settings menu of the Clockify website. See you soon!"
+          ]
+        },
+        "AccountLinkingCard": "{accountLinkingCard}",
+        "Welcome": {
+          "init": "Welcome back to Clockify Tracker!",
+          "say": [
+            "What project would you like to log to? You need to start with the project is: like, the project is internal tasks, or the project is time off"
+          ]
+        }
+      },
+      "NotUnderstood": {
+        "say": [
+          "Sorry, I didn't understand. "
+        ]
+      },
+      "Exit": {
+        "say": [
+          "Ok. Goodbye!"
+        ]
+      },
+      "Task": {
+        "Lunch": {
+          "AlreadyLogged": {
+            "say": [
+              "You have already logged your lunch time, come back next week."
+            ]
+          },
+          "Logged": {
+            "say": [
+              "I just logged all your lunch hours for the week. Anything else?"
+            ],
+            "reprompt": [
+              "Anything else?"
+            ]
+          }
+        },
+        "StartOver": {
+          "say": [
+            "Ok. Let's start over."
+          ]
+        },
+        "WhatProject": {
+          "say": [
+            "What is the project's name? You need to start with the project is: like, the project is internal tasks, or the project is time off"
+          ]
+        },
+        "WhatTask": {
+          "say": [
+            "What is the task's name? You need to start with the task is: like, the task is internal meetings, or the task is company training, or the task is independent study"
+          ]
+        },
+        "WhatDescription": {
+          "say": [
+            "What's the description for your task? You need to start with description is, like: description is: studying AWS"
+          ]
+        },
+        "InvalidProject": {
+          "say": [
+            "I didn't find a project called {projectName}. Can you try again?"
+          ]
+        },
+        "InvalidTask": {
+          "say": [
+            "I didn't find a task called {taskName}. Can you try again?"
+          ]
+        },
+        "HowMuchTime": {
+          "say": [
+            "How much time are you logging for this task?"
+          ]
+        },
+        "Confirm": {
+          "reprompt": [
+            "Should I create this task?"
+          ],
+          "say": [
+            "Ok, just to confirm. I'm going to create the following task: You lasted {duration} in: {description}, for the task {taskName}, in the project {projectName}. Is this correct?"
+          ],
+          "card": "{confirmCard}"
+        },
+        "ConfirmProject": {
+          "say": [
+            "{projectName}. Is this correct?"
+          ]
+        },
+        "ConfirmTask": {
+          "say": [
+            "{taskName}. Is this correct?"
+          ]
+        },
+        "ConfirmDescription": {
+          "say": [
+            "{description}. Is this correct?"
+          ]
+        },
+        "ConfirmHour": {
+          "say": [
+            "{duration}. Is this correct?"
+          ]
+        },
+        "ProgressCard": "{progressCard}",
+        "Done": {
+          "reprompt": [
+            "Anything else?"
+          ],
+          "say": [
+            "Ok, I just logged this task. Anything else?"
+          ]
+        }
+      }
+    }
+  }
+}
