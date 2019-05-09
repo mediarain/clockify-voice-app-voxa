@@ -86,7 +86,7 @@ jspm_packages
 #### Project
 /.ask
 /www/public
-/config/local.json
+/src/config/local.json
 .serverless
 
 
